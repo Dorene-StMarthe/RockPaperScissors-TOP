@@ -7,7 +7,6 @@ app.set('view engine', 'ejs')
 
 //main index page
 app.get('/', (req, res) => {
-  console.log('working')
   res.render('index', {
     });
 });
