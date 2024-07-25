@@ -1,1 +1,0 @@
-This simple application was used to further practice node.js and express. I implemented materialize to style the pages. In addition, I used ejs to read my code rendered in server.js. Overall, this mini projects was very engaging to build, because it was interesting to get a little peek of how the back end works!  08/11/22
