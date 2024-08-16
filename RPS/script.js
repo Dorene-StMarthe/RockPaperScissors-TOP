@@ -31,7 +31,7 @@ function playRound(humanChoice, computerChoice) {
 function playGame() {
     let humanScore = 0;
     let computerScore = 0;
-    let rounds = 5;  
+    let rounds = 1;  
 
     for (let i = 0; i < rounds; i++) {
         let humanChoice = getHumanChoice();
@@ -60,3 +60,21 @@ function playGame() {
 
 // Start the game
 playGame();
+
+
+const rockBtn = document.querySelector("#rockBtn");
+rockBtn.addEventListener("click", () => {
+    console.log("rock");
+});
+
+
+const paperBtn = document.querySelector("#paperBtn");
+rockBtn.addEventListener("click", ()=>{
+    console.log("paper");
+});
+
+
+const scissorsBtn = document.querySelector("#scissorsBtn");
+rockBtn.addEventListener("click", ()=>{
+    console.log("scissors");
+});

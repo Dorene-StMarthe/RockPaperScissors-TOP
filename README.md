@@ -1,1 +1,1 @@
-# TheOdinProject
+# Rock Paper Scissors
