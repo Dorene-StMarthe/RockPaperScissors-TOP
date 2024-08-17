@@ -1,3 +1,7 @@
 body{
-    background-color: powderblue;
+    background-color: rgb(223, 233, 235);
+}
+.heading {
+    background-color: #FFCAB1;
+    color: #A1C084
 }
