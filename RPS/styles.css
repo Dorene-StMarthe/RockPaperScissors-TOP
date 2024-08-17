@@ -2,6 +2,14 @@ body{
     background-color: rgb(223, 233, 235);
 }
 .heading {
-    background-color: #FFCAB1;
-    color: #A1C084
+    background-color: white;
+    padding: 60px;
+    border-bottom: 1px solid gray;
+    font-family: Permanent Marker, cursive;
+    font-weight: 400;
+    font-size: 45px;
+}
+.playerOptions {
+    font-family: Permanent Marker, cursive;
+    font-size: 30px;
 }
