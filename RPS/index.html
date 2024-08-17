@@ -10,19 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Permanent+Marker&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
     <title>Rock Paper Scissors</title>
-   
 </head>
 <body>
-    <div class="heading"> It's time to ROCK with PAPER and cut up with SCISSORS!</div>
+    <div>
+        <div class="heading"> It's time to ROCK with PAPER and cut up with SCISSORS!</div>
+    </div>
+    <div class= "score">
+        <div class = "result" style = "background-color: #ffcab1" id="humanScore">Your Score: 0</div>
+        <div class = "result" style = "background-color: #69a2b0" id="computerScore">Computer Score: 0</div>
+    </div>
     <div class="playerOptions">
         <button id="rockBtn"><img src="Rock.png">Rock</button>
         <button id="paperBtn"><img src="Paper.png">Paper</button>
         <button id="scissorsBtn"><img src="Scissors.png">Scissors</button>
     </div>
+        <div class="gameResults">
     
     <div id="result"></div>
-    <div id="humanScore">Your Score: 0</div>
-    <div id="computerScore">Computer Score: 0</div>
     
 </body>
 </html>

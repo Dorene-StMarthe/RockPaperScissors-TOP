@@ -1,15 +1,47 @@
 body{
-    background-color: rgb(223, 233, 235);
+    background-color:white;
+    font-family: Permanent Marker, cursive;
+    
 }
 .heading {
-    background-color: white;
-    padding: 60px;
-    border-bottom: 1px solid gray;
-    font-family: Permanent Marker, cursive;
+    background-color:white;
+    padding:  30px;
     font-weight: 400;
-    font-size: 45px;
+    font-size: 40px;
+    text-align: center;
+    color: #659157;
+    margin: 0 70px;
 }
 .playerOptions {
-    font-family: Permanent Marker, cursive;
+    background-color: #a1c084;
     font-size: 30px;
+    margin: 0 70px;
+    padding-bottom: 20px;
+    color: #e05263;
+    text-align: center;
 }
+.gameResults{
+    text-align: center;
+    font-size: 35px;
+    color: #659157;
+}
+.score {
+    display: flex;
+    font-size: 30px;
+    margin: 0 69px 0 70px;
+   
+    
+}
+.result{
+    flex: 50%;
+    margin: 0 2px 2px 0;
+    padding: 0 20px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+        
+    
+  }

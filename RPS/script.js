@@ -61,3 +61,5 @@ let computerScore = 0;
 document.querySelector("#rockBtn").addEventListener("click", () => handleChoice("rock"));
 document.querySelector("#paperBtn").addEventListener("click", () => handleChoice("paper"));
 document.querySelector("#scissorsBtn").addEventListener("click", () => handleChoice("scissors"));
+
+
