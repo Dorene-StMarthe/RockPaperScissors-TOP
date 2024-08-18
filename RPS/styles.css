@@ -29,19 +29,47 @@ body{
     display: flex;
     font-size: 30px;
     margin: 0 69px 0 70px;
-   
-    
 }
 .result{
     flex: 50%;
     margin: 0 2px 2px 0;
     padding: 0 20px;
-
 }
 
 
+@media only screen and (max-width: 1465px) {
+    .heading {
+        padding: 15px;
+        font-size: 30px;
+    }
+    .playerOptions {
+        display:flex;
+        font-size: 25px;
+    }
+    .result{
+        font-size: 25px;
+    }
+}
 @media only screen and (max-width: 600px) {
-    
-        
-    
+    body {
+      background-color: #a1c084;
+    }
+    .heading {
+        padding: 15px;
+        font-size: 15px;
+        margin: 0 30px;
+    }
+    .gameResults{
+        text-align: center;
+        font-size: 25px;
+        color: black;
+        margin: 0 60px;
+    }
+    .result{
+     font-size: 20px;   
+    }
+    .score {
+        display: flex;
+        margin: 0 30px;
+    }
   }
