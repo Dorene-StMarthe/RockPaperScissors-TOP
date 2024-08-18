@@ -8,7 +8,7 @@ This classic Rock Paper Scissors game is a simple project implemented in javascr
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](RPS.png)
 
 ## Play Game
 Follow this link to play!: https://dorene-stmarthe.github.io/RockPaperScissors-TOP/
