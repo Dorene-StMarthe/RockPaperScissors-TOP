@@ -40,7 +40,7 @@ body{
 @media only screen and (max-width: 1465px) {
     .heading {
         padding: 15px;
-        font-size: 30px;
+        font-size: 35px;
     }
     .playerOptions {
         display:flex;
@@ -55,21 +55,27 @@ body{
       background-color: #a1c084;
     }
     .heading {
-        padding: 15px;
-        font-size: 15px;
+        padding: 20px;
+        font-size: 20px;
         margin: 0 30px;
+        color: black;
     }
     .gameResults{
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
         color: black;
         margin: 0 60px;
     }
+    .playerOptions {
+        font-size: 15px;
+    }
     .result{
-     font-size: 20px;   
+     font-size: 19px;   
+     margin: 0 2px
     }
     .score {
         display: flex;
         margin: 0 30px;
+        padding: 10px 0;
     }
   }
