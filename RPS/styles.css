@@ -1,6 +1,7 @@
 body{
     background-color:white;
     font-family: Permanent Marker, cursive;
+   
     
 }
 .heading {
@@ -53,11 +54,14 @@ body{
 @media only screen and (max-width: 600px) {
     body {
       background-color: #a1c084;
+      position: fixed;
+      top: 10%;
+
     }
     .heading {
         padding: 20px;
         font-size: 20px;
-        margin: 0 30px;
+        margin:  70px 30px 20px 30px ;
         color: black;
     }
     .gameResults{
@@ -70,8 +74,8 @@ body{
         font-size: 15px;
     }
     .result{
-     font-size: 19px;   
-     margin: 0 2px
+        font-size: 19px;   
+        margin: 0 2px
     }
     .score {
         display: flex;
